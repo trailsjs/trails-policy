@@ -28,8 +28,8 @@ class MyPolicy extends Policy {
 ## License
 [MIT](https://github.com/trailsjs/trails/blob/master/LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/trails.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/trails
+[npm-image]: https://img.shields.io/npm/v/trails-policy.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/trails-policy
 [ci-image]: https://img.shields.io/travis/trailsjs/trails-policy/master.svg?style=flat-square
 [ci-url]: https://travis-ci.org/trailsjs/trails-policy
 [daviddm-image]: http://img.shields.io/david/trailsjs/trails-policy.svg?style=flat-square
