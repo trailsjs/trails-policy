@@ -6,6 +6,7 @@
 module.exports = class TrailsPolicy {
   constructor (app) {
     this.app = app
+    this.api = app.api
   }
 
   get log () {
@@ -13,6 +14,6 @@ module.exports = class TrailsPolicy {
   }
 
   get __ () {
-    return this.app.packs.core.i18n.t
+    return this.app.__
   }
 }
