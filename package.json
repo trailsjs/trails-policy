@@ -1,6 +1,6 @@
 {
   "name": "trails-policy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Trails Policy Class",
   "main": "index.js",
   "scripts": {
