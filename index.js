@@ -1,11 +1,20 @@
 'use strict'
 
 /**
- * Trails Policy Class. 
+ * Trails Policy Class.
  */
 module.exports = class TrailsPolicy {
   constructor (app) {
-    this.app = app
+    Object.defineProperty(this, 'app', {
+      enumerable: false,
+      value: app
+    })
+  }
+
+  /**
+   * Policy configuration
+   */
+  static config () {
   }
 
   get log () {
