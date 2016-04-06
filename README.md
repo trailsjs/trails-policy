@@ -34,7 +34,7 @@ module.exports = {
 ```
 
 Note: Even if you are only applying one policy to a controller method, you should
-still enclose the string 'MyPolicy.policyMethod' in an array.
+still enclose the string `'MyPolicy.policyMethod'` in an array.
 
 #### Install
 
