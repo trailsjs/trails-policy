@@ -1,6 +1,6 @@
 {
   "name": "trails-policy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Trails Policy Class",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/trailsjs/trails-policy/issues"
   },
-  "homepage": "https://github.com/trailsjs/trails-policy#readme"
+  "homepage": "https://github.com/trailsjs/trails-policy#readme",
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "devDependencies": {
+    "eslint": "^2.0.0",
+    "eslint-config-trails": "^1.0.4",
+    "mocha": "^2.4.5"
+  }
 }

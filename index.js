@@ -5,8 +5,16 @@
  */
 module.exports = class TrailsPolicy {
   constructor (app) {
-    this.app = app
-    this.api = app.api
+    Object.defineProperty(this, 'app', {
+      enumerable: false,
+      value: app
+    })
+  }
+
+  /**
+   * Policy configuration
+   */
+  static config () {
   }
 
   get log () {
