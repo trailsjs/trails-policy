@@ -5,7 +5,6 @@
 [![Build status][ci-image]][ci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
-[![Issue Stats][issuestats-image]][issuestats-url]
 [![Follow @trailsjs on Twitter][twitter-image]][twitter-url]
 
 Trails Policy Class. Exposes Trails Application resources to the class
