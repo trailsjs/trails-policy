@@ -4,7 +4,7 @@
  * Trails Policy Class.
  */
 module.exports = class TrailsPolicy {
-  constructor (app) {
+  constructor(app) {
     Object.defineProperty(this, 'app', {
       enumerable: false,
       value: app
@@ -14,14 +14,14 @@ module.exports = class TrailsPolicy {
   /**
    * Policy configuration
    */
-  static config () {
+  static config() {
   }
 
-  get log () {
+  get log() {
     return this.app.log
   }
 
-  get __ () {
-    return this.app.packs.core.i18n.t
+  get __() {
+    return this.app.__
   }
 }
