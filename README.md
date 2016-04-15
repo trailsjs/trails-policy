@@ -12,6 +12,7 @@ instances. Policies should extend this Class.
 
 ## Usage
 
+In api/policies/MyPolicy.js:
 ```js
 const Policy = require('trails-policy')
 
@@ -21,6 +22,18 @@ class MyPolicy extends Policy {
   }
 }
 ```
+
+In config/policies.js:
+```js
+module.exports = {
+  SomeController: {
+    doSomething: ['MyPolicy.policyMethod']
+  }
+}
+```
+
+Note: Even if you are only applying one policy to a controller method, you should
+still enclose the string `'MyPolicy.policyMethod'` in an array.
 
 #### Install
 
