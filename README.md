@@ -12,12 +12,28 @@ instances. Policies should extend this Class.
 
 ## Usage
 
+### Express (trailpack-express)
+
 In api/policies/MyPolicy.js:
 ```js
 const Policy = require('trails-policy')
 
 class MyPolicy extends Policy {
-  policyMethod () {
+  policyMethod (req, res, next) {
+    // ...
+    next()
+  }
+}
+```
+
+### Hapi (trailpack-hapi)
+
+In api/policies/MyPolicy.js:
+```js
+const Policy = require('trails-policy')
+
+class MyPolicy extends Policy {
+  policyMethod (req, res) {
     // ...
   }
 }
