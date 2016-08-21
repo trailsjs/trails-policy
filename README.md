@@ -39,6 +39,8 @@ class MyPolicy extends Policy {
 }
 ```
 
+### Both
+
 In config/policies.js:
 ```js
 module.exports = {
