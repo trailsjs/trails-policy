@@ -5,8 +5,9 @@
 [![Build status][ci-image]][ci-url]
 [![Dependency Status][daviddm-image]][daviddm-url]
 [![Code Climate][codeclimate-image]][codeclimate-url]
-[![Issue Stats][issuestats-image]][issuestats-url]
 [![Follow @trailsjs on Twitter][twitter-image]][twitter-url]
+
+### Note: This module is deprecated in Trails v2. It will be merged into [trailsjs/trails](https://github.com/trailsjs/trails) in v3.
 
 Trails Policy Class. Exposes Trails Application resources to the class
 instances. Policies should extend this Class.
@@ -37,7 +38,7 @@ class MyPolicy extends Policy {
 [codeclimate-image]: https://img.shields.io/codeclimate/github/trailsjs/trails-policy.svg?style=flat-square
 [codeclimate-url]: https://codeclimate.com/github/trailsjs/trails-policy
 [gitter-image]: http://img.shields.io/badge/+%20GITTER-JOIN%20CHAT%20%E2%86%92-1DCE73.svg?style=flat-square
-[gitter-url]: https://gitter.im/trailsjs/trails-policy
+[gitter-url]: https://gitter.im/trailsjs/trails
 [twitter-image]: https://img.shields.io/twitter/follow/trailsjs.svg?style=social
 [twitter-url]: https://twitter.com/trailsjs
 
